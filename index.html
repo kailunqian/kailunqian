@@ -1,17 +1,36 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Dimension by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-
-<body><iframe src="https://copilotstudio.microsoft.com/environments/Default-4ccfc2dd-69f8-4a84-b914-cf443c4b4503/bots/Default_warkAi/webchat?__version__=2" frameborder="0" style="width: 80%; height: 2000;"></iframe></body>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-	</body>
+<head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        #iframe-container {
+            height: 100%;
+            width: 80%;
+            margin: 0 auto;
+            background-image: url('images\bg.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div id="iframe-container">
+        <iframe src="https://copilotstudio.microsoft.com/environments/Default-4ccfc2dd-69f8-4a84-b914-cf443c4b4503/bots/Default_warkAi/webchat?__version__=2"></iframe>
+    </div>
+</body>
 </html>
